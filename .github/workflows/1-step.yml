@@ -1,8 +1,8 @@
-name: Step 1
+name: Passo 1
 
 on:
   push:
-    # Trigger on pushes to any branch except the protected `main` branch
+    # Aciona em pushes para qualquer branch exceto a branch protegida `main`
     branches-ignore:
       - main
 

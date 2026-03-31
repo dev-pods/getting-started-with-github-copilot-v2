@@ -1,4 +1,4 @@
-name: Step 2
+name: Passo 2
 on:
   push:
     branches:

@@ -1,4 +1,4 @@
-name: Step 0 # Start Exercise
+name: Passo 0 # Iniciar Exercício
 
 on:
   push:
