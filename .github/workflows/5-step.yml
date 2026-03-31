@@ -1,4 +1,4 @@
-name: Step 5
+name: Passo 5
 
 on:
   pull_request:
