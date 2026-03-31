@@ -1,40 +1,40 @@
-## Step 3: Engage Hyperdrive - Copilot Agent Mode 🚀
+## Passo 3: Ativar o Turbo - Modo Agência do Copilot 🚀
 
-### 📖 Theory: What is Copilot Agent Mode?
+### 📖 Teoria: O que é o Modo Agência do Copilot?
 
-Copilot [agent mode](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode) is the next evolution in AI-assisted coding. Acting as an autonomous peer programmer, it performs multi-step coding tasks at your command.
+[Modo agência](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode) do Copilot é a próxima evolução na codificação assistida por IA. Agindo como um colega programador autônomo, ele executa tarefas de codificação de múltiplas etapas sob seu comando.
 
-Copilot Agent Mode responds to compile and lint errors, monitors terminal and test output, and auto-corrects in a loop until the task is completed.
+Modo Agência do Copilot responde a erros de compilação e lint, monitora saída de terminal e testes e corrige automaticamente em um loop até que a tarefa seja concluída.
 
-#### Agent Mode (at a glance)
+#### Modo Agência (de uma olhada)
 
-| Aspect | 👩‍🚀 Agent Mode |
+| Aspecto | 🚬 Modo Agência |
 | --- | --- |
-| Autonomy and planning | Breaks down high-level requests into multi-step work and iterates until the task is complete. |
-| Context gathering | Uses your current context and can discover additional relevant files when needed. |
-| Tool use | Selects and invokes tools automatically; you can also direct tools with mentions like `#codebase`. |
-| Approval and safety gates | Sensitive actions can require approval before execution, helping you stay in control. |
+| Autonomia e planejamento | Quebra solicitações de alto nível em trabalho de múltiplas etapas e itera até que a tarefa seja concluída. |
+| Coleta de contexto | Usa seu contexto atual e pode descobrir arquivos relevantes adicionais quando necessário. |
+| Uso de ferramentas | Seleciona e invoca ferramentas automaticamente; você também pode direcionar ferramentas com menções como `#codebase`. |
+| Aprovarção e portões de segurança | Ações sensíveis podem exigir aprovação antes da execução, ajudando você a permanecer no controle. |
 
-#### 🧰 Agent Mode Tools
+#### 🛠 Ferramentas do Modo Agência
 
-Agent mode uses tools to accomplish specialized tasks while processing a user request. Examples of such tasks are:
+Modo agência usa ferramentas para realizar tarefas especializadas ao processar uma solicitação do usuário. Exemplos de tais tarefas são:
 
-- Finding relevant files to complete your prompt
-- Fetching contents of a webpage
-- Running tests or terminal commands
+- Encontrando arquivos relevantes para completar seu prompt
+- Buscando conteúdo de uma página da web
+- Executando testes ou comandos de terminal
 
 > [!TIP]
-> While VS Code provides many built‑in tools, you can also provide Agent Mode more domain‑specific powers through **MCP tools**.
+> Enquanto VS Code fornece muitas ferramentas integradas, você também pode fornecer ao Modo Agência mais poderes específicos de domínio através **ferramentas MCP**.
 >
-> Read more on [MCP servers](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) and [GitHub MCP Server](https://github.com/github/github-mcp-server)
+> Leia mais em [servidores MCP](https://code.visualstudio.com/docs/copilot/customization/mcp-servers) e [GitHub MCP Server](https://github.com/github/github-mcp-server)
 
-Now, let's give **Agent Mode** a try! 👩‍🚀
+Agora, vamos experimentar o **Modo Agência**! 🚀
 
-### :keyboard: Activity: Use Copilot to add a new feature! :rocket:
+### :keyboard: Atividade: Use Copilot para adicionar um novo recurso! 🚀
 
-Our website lists activities, but it's keeping the guest list secret 🤫 
+Nosso site lista atividades, mas está mantendo a lista de convidados secreta ��
 
-Let's use Copilot to change the website to display signed up students under each activity!
+Vamos usar o Copilot para alterar o site para exibir alunos inscritos sob cada atividade!
 
 1. At the bottom of Copilot Chat window, use the dropdown to switch to **Agent** mode.
 
@@ -91,13 +91,13 @@ Let's use Copilot to change the website to display signed up students under each
 
    > 💡 **Tip:** You can accept the changes directly, modify them, or provide additional instruction to refine them using the chat interface.
 
-### :keyboard: Activity: Use Agent mode to add functional "unregister" buttons
+### :keyboard: Atividade: Use o modo Agência para adicionar botões de "desinscrever" funcionais
 
-Let's experiment with some more open-ended requests that will add more functionality to our web application.
+Vamos experimentar algumas solicitações mais abertas que adicionarão mais funcionalidade ao nosso aplicativo web.
 
-If you don't get the desired results, you can try other models or provide follow-up feedback to refine the results.
+Se você não obtiver os resultados desejados, pode tentar outros modelos ou fornecer feedback de acompanhamento para refinar os resultados.
 
-1. Make sure your Copilot is still in **Agent** mode.
+1. Certifique-se de que seu Copilot ainda está em **Modo Ag\u00eancia**.
 
    <img width="250" alt="agent mode" src="../images/agent-mode-dropdown.png" />
 
